@@ -1,6 +1,6 @@
-# AWS SDK for Java [![Build Status](https://travis-ci.org/aws/aws-sdk-java.png?branch=master)](https://travis-ci.org/aws/aws-sdk-java)
+# AWS SDK for Java, version 1 [![Build Status](https://travis-ci.org/aws/aws-sdk-java.png?branch=master)](https://travis-ci.org/aws/aws-sdk-java)
 
-The **AWS SDK for Java** enables Java developers to easily work with [Amazon Web Services][aws] and
+The legacy version of the **AWS SDK for Java**, version 1 (v1), enables Java developers to easily work with [Amazon Web Services][aws] and
 build scalable solutions with Amazon S3, Amazon DynamoDB, Amazon Glacier, and more. You can get
 started in minutes using ***Maven*** or by downloading a [single zip file][install-jar].
 
@@ -12,7 +12,7 @@ started in minutes using ***Maven*** or by downloading a [single zip file][insta
 * [SDK Blog][blog]
 * [Getting Help](#getting-help)
 
-Note: A version 2.x of the SDK is available, see the [AWS SDK for Java 2.x](#AWS-SDK-for-Java-2.x) section for more information.
+Note: The latest version of the AWS SDK for Java is version 2 (v2). For more information about v2, see the [AWS SDK for Java v2](#AWS-SDK-for-Java-v2) section below.
 
 
 ## Release Notes ##
@@ -136,10 +136,10 @@ The AWS SDK for Java is not directly affected by these findings. The SDKs own us
 
 A good explanation of this type of exploit can be found [here][jackson-deserialization-gadget].
 
-## AWS SDK for Java 2.x
-A version 2.x of the SDK is generally available. It is a major rewrite of the 1.x code base, built on top of Java 8+ and adds several frequently requested features. These include support for non-blocking I/O, improved start-up performance, automatic iteration over paginated responses and the ability to plug in a different HTTP implementation at run time.
+## AWS SDK for Java v2
+The latest version of the SDK for Java, version 2, is generally available. It's a major rewrite of the 1.x code base, built on top of Java 8+ and adds several frequently requested features. New features include support for non-blocking I/O, improved start-up performance, automatic iteration over paginated responses, and the ability to plug in a different HTTP implementation at run time.
 
-For more information see the [AWS SDK for Java 2.x Developer Guide][sdk-v2-dev-guide] or check the project repository in https://github.com/aws/aws-sdk-java-v2.
+For more information see the [AWS SDK for Java v2 Developer Guide][sdk-v2-dev-guide] or check the project repository in https://github.com/aws/aws-sdk-java-v2.
 
 [aws-iam-credentials]: http://docs.aws.amazon.com/java-sdk/v1/developer-guide/java-dg-roles.html
 [aws]: http://aws.amazon.com/
